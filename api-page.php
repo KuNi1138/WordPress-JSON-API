@@ -22,7 +22,7 @@ if ($query->have_posts()) {
           'content'   => get_the_content(), //本文を取得
           // Advanced Custom Fields
           //https://www.advancedcustomfields.com/
-          'value'   => get_field( "field" ),
+          'value'   => get_field('field'),
           'value2'  => get_field('field2')
         );
     }

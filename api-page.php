@@ -8,7 +8,7 @@ $args = array (
   // The Query
   //カスタム投稿タイプにも対応
   'post_type'      => 'post',
-	'post_status'    => 'publish',
+  'post_status'    => 'publish',
   'posts_per_page'   => -1
 );
 $query = new WP_Query($args);
